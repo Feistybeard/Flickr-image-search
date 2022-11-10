@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Flickr Image Searcher</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-        <section class="search">
-            <input type="text" placeholder="Search for images" id="search">
-            <button id="search-btn">Search</button>
-        </section>
-        <section class="images">
-            <ul class="images-list">
-            </ul>
-        </section>
+      <section class="search">
+        <h1>Flickr Image Search</h1>
+        <input type="text" placeholder="Search for images" id="search" />
+        <button id="search-btn">Search</button>
+      </section>
+      <section class="overlay">
+        <div class="overlay-inner">
+          <img />
+        </div>
+      </section>
+      <section class="images">
+        <ul class="images-list"></ul>
+      </section>
     </div>
     <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>
